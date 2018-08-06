@@ -1,0 +1,71 @@
+*{
+		margin: 0px;
+		padding: 0px;
+	
+}
+body{
+	margin-left:auto;
+	margin-right:auto;
+	background:url('images/sky.jpg') repeat center;
+	background-size:150%;
+}
+
+.logo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 30%;
+	max-width:40%;
+}
+
+ul{
+	text-align:center;
+	padding:20px;
+	font:12px Arial;
+}
+ul a{
+	text-decoration: none;
+	color:blue;
+}
+ul a li{
+	display:inline-block;
+	padding:20px;
+	border:1px solid #bee1fa;
+	border-radius:15px;
+	margin-top:20px;
+	margin-left:10px;
+	margin-right:10px;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#F2F9FE), to(#d6f0fd));
+}
+.welcome:before{
+	content:url("images/welcome.png");
+	display:block;
+}
+.portfolio:before{
+	content:url("images/portfolio.png");
+	display:block;
+}
+.resume:before{
+	content:url("images/resume.png");
+	display:block;
+}
+.about:before{
+	content:url("images/about.png");
+	display:block;
+}
+.email:before{
+	content:url("images/email.png");
+	display:block;
+}
+.social:before{
+	content:url("images/social.png");
+	display:block;
+}
+footer{
+	text-align:center;
+	font:7px Arial;
+}
+
+
+
+
